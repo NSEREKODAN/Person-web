@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>achievementpage</title>
+    <style>
+        body{
+            background-color: darkturquoise;
+            border: dashed;
+            border-color: crimson;
+        }
+        h1{
+            color: chocolate;
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+        }
+        .contact{
+            padding: 50px;
+            width: 400px;
+        }
+        nav ul li{
+            list-style-type: none;
+            display: inline-block;
+        }
+        nav ul li a{
+            text-decoration: none;
+        }
+        nav ul li a:hover{
+            padding: 30px;
+            color: chartreuse;
+        }
+        .contact{
+            padding: 15px;
+            width: 300px;
+            height: 400px;
+            background: yellowgreen;
+            -webkit-transition: width 3s,height 3s,-webkit-transform 3s;/*for safari 3.1 to 6.0*/
+            transition: width 3s,height 3s,transform 3s;
+        }
+        .contact:hover{
+            width: 250px;
+            height: 300px;
+            -webkit-transform: rotate(360deg);/* chrome,safari,opera*/
+            transform: rotate(360deg);
+        }
+
+    </style>
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">homepage</a></li>
+            <li><a href="contact.html">contactpage</a></li>
+            <li><a href="achievement.html">achievementpage</a></li>
+            <li><a href="gallery.html">gallerypage</a></li>
+        </ul>
+    </nav>
+    
+    <div class="contact">
+    <h1 style="color: blueviolet;">Skills</h1>
+    <ol style="color: deeppink;font-size: large;font-style: initial;">
+        <li>making mats</li>
+        <li>making bricks</li>
+        <li>painting</li>
+        <li>making  pots</li>
+    </ol>
+    <h1 style="color: blueviolet;">Hobbies</h1>
+    <ul style="color: deeppink;font-style: inherit; darksalmon;">
+        <li>Reading Bible</li>
+        <li>playing footballer</li>
+        <li>Listening to music</li>
+        <li>Watching movies</li>
+    </ul>
+</div>
+</body>
+</html>
